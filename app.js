@@ -9,7 +9,9 @@ const locationElement = document.querySelector(".location p");
 const notificationElement = document.querySelector(".notification");
 
 // App data
-const weather = {};
+const weather = {
+    temperature : ""
+};
 
 weather.temperature = {
     unit : "celsius"
@@ -18,7 +20,7 @@ weather.temperature = {
 // APP CONSTS AND VARS
 const KELVIN = 273;
 // API KEY
-const key = "82005d27a116c2880c8f0fcb866998a0";
+const key = "9cc875fc8d16366cd0d21b5231e6ef6d";
 
 // CHECK IF BROWSER SUPPORTS GEOLOCATION
 if('geolocation' in navigator){
